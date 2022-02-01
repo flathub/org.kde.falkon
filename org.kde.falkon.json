@@ -30,16 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/falkon/3.1/falkon-3.1.0.tar.xz",
-                    "sha256": "ce743cd80c0e2d525a784e29c9b487f73480119b0567f9ce8ef1f44cca527587"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Add-missing-include-in-last-qt5.14.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Fix-build-with-Qt-5.15.patch"
+                    "url": "https://download.kde.org/stable/falkon/3.2.0/falkon-3.2.0.tar.xz",
+                    "sha256": "f4ff925b7572b6e035424face86d05ca2df66723061bc57f2b1615c2c09012aa"
                 },
                 {
                     "type": "patch",
