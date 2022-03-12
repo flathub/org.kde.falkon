@@ -31,11 +31,21 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/falkon/3.2.0/falkon-3.2.0.tar.xz",
-                    "sha256": "f4ff925b7572b6e035424face86d05ca2df66723061bc57f2b1615c2c09012aa"
+                    "sha256": "f4ff925b7572b6e035424face86d05ca2df66723061bc57f2b1615c2c09012aa",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242801,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/falkon/$version/falkon-$version.tar.xz"
+                    }
                 },
                 {
                     "type": "patch",
                     "path": "0001-Add-release-and-content-rating-appdata-tags.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Remove-screenshot-dimensions-from-appdata.patch"
                 }
             ]
         }
