@@ -42,6 +42,10 @@
                 {
                     "type": "patch",
                     "path": "0001-Add-release-and-content-rating-appdata-tags.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Remove-screenshot-dimensions-from-appdata.patch"
                 }
             ]
         }
