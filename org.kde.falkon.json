@@ -19,7 +19,6 @@
         "--talk-name=org.kde.kwalletd5",
         "--own-name=org.mpris.MediaPlayer2.falkon.*"
     ],
-
     "modules": [
         {
             "buildsystem": "cmake-ninja",
@@ -30,18 +29,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/falkon/3.2.0/falkon-3.2.0.tar.xz",
-                    "sha256": "f4ff925b7572b6e035424face86d05ca2df66723061bc57f2b1615c2c09012aa",
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/falkon-22.04.0.tar.xz",
+                    "sha256": "2401d24df70a4c68ae6adbd634944e6679380d79eeee0be810308a07ba8b8fef",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 242801,
+                        "project-id": 8763,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/falkon/$version/falkon-$version.tar.xz"
+                        "url": "https://download.kde.org/stable/release-service/$version/src/falkon-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Add-release-and-content-rating-appdata-tags.patch"
                 },
                 {
                     "type": "patch",
