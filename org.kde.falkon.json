@@ -29,13 +29,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/falkon-22.04.0.tar.xz",
-                    "sha256": "2401d24df70a4c68ae6adbd634944e6679380d79eeee0be810308a07ba8b8fef",
+                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/falkon-22.04.1.tar.xz",
+                    "sha256": "7499780c449e5a0decf96b9f8faa78b6cb5d9a95f74f12cb944e240bc21dc224",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
-                        "url": "https://download.kde.org/stable/release-service/$version/src/falkon-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/falkon-$version.tar.xz"
                     }
                 },
                 {
