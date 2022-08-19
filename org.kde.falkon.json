@@ -37,10 +37,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/falkon-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Remove-screenshot-dimensions-from-appdata.patch"
                 }
             ]
         }
