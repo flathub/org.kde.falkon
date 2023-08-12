@@ -33,9 +33,9 @@
                     "sha256": "a399e24bd44f8df172d04661abd228921d13bbe15b3f64a0724bfd56238f2187",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 8763,
+                        "project-id": 368663,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/falkon-$version.tar.xz"
+                        "url-template": "https://download.kde.org/unstable/release-service/$version/src/falkon-$version.tar.xz"
                     }
                 }
             ]
