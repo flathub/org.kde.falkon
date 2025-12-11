@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/falkon-25.08.3.tar.xz",
-                    "sha256": "16252d8a42028bf54b88e1e4a5afb95875309de44f203156c99c4a643720e129",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/falkon-25.12.0.tar.xz",
+                    "sha256": "6d9b4dba1bde0d04570736ed7bb9bc1288cd7fb94b4ffe934a990912b9b7a959",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
