@@ -21,6 +21,17 @@
         "--talk-name=org.kde.kwalletd6",
         "--own-name=org.mpris.MediaPlayer2.falkon.*"
     ],
+     "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/mkspecs",
+        "*.la",
+        "*.a"
+    ],
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
+    ],
     "modules": [
         {
             "buildsystem": "cmake-ninja",
