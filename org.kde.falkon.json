@@ -21,7 +21,7 @@
         "--talk-name=org.kde.kwalletd6",
         "--own-name=org.mpris.MediaPlayer2.falkon.*"
     ],
-     "cleanup": [
+    "cleanup": [
         "/include",
         "/lib/cmake",
         "/lib/pkgconfig",
@@ -42,8 +42,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/falkon-25.12.2.tar.xz",
-                    "sha256": "fc84fd941b563fcc15f4827cc2a57249b549cf6a073df1925e85bd0fcedeca4c",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/falkon-25.12.3.tar.xz",
+                    "sha256": "25f90957335058fff8536b511135e36d96e74c49fab45690be89b994015777b5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
